@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:malak_project/screens/onboarding_screen.dart';
+import 'package:malak_project/screens/task1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
       // This works for code too, not just values: Most code changes can be
       // tested with just a hot reload.
 
-      home: const OnboardingScreen(),
+      home: Task1(),
     );
   }
 }
